@@ -5,6 +5,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.Assert;
 import org.testng.annotations.Test;
 import io.github.bonigarcia.wdm.WebDriverManager;
 public class MakeMyTrip {
@@ -33,6 +34,7 @@ public class MakeMyTrip {
 				driver.findElement(By.xpath("//span[@aria-label='Next Month']")).click();
 			}
 		}
+		Assert.assertEquals("hi","hi");
 		driver.findElement(By.xpath("//a[text()='Search']")).click();
 		driver.quit();
 		
