@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-10-09T13:18:29Z" name="Suite" finished-at="2022-10-09T13:19:10Z" duration-ms="40206">
+    <groups>
+    </groups>
+    <test started-at="2022-10-09T13:18:29Z" name="Test-2" finished-at="2022-10-09T13:19:08Z" duration-ms="38338">
+      <class name="practice.MakeMyTrip">
+        <test-method signature="login()[pri:0, instance:practice.MakeMyTrip@57a78e3]" started-at="2022-10-09T13:18:29Z" name="login" finished-at="2022-10-09T13:19:08Z" duration-ms="38284" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+      </class> <!-- practice.MakeMyTrip -->
+    </test> <!-- Test-2 -->
+    <test started-at="2022-10-09T13:18:29Z" name="Test-1" finished-at="2022-10-09T13:19:10Z" duration-ms="40205">
+      <class name="practice.MakeMyTrip">
+        <test-method signature="login()[pri:0, instance:practice.MakeMyTrip@53fb3dab]" started-at="2022-10-09T13:18:29Z" name="login" finished-at="2022-10-09T13:19:10Z" duration-ms="40163" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+      </class> <!-- practice.MakeMyTrip -->
+    </test> <!-- Test-1 -->
+  </suite> <!-- Suite -->
+</testng-results>
